@@ -6,10 +6,10 @@
 
 // # My solution
 
+const text = 'Hello World!';
+
 function reversedString(world) {
-  let output = '';
-  for (let i = world.length - 1; i >= 0; i--) {
-    output += world[i];
-  }
-  return output;
+  return world.split('').reverse().join('');
 }
+
+reversedString(text);
