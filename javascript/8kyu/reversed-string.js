@@ -13,3 +13,17 @@ function reversedString(world) {
 }
 
 reversedString(text);
+
+function reversedString1(str) {
+  return [...str].reverse().join('');
+}
+reversedString1(text);
+
+function reversedString2(str) {
+  let output = '';
+  for (let i = str.length - 1; i >= 0; i--)
+    output += str[i];
+  return output;
+}
+
+reversedString2(text);
