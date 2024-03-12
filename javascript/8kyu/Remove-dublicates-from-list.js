@@ -11,6 +11,8 @@ Input -> Output
 [1, 2, 1, 1, 3, 2] -> [1, 2, 3]
  */
 
+// My solutions.
+
 const numbers = [1, 2, 1, 1, 3, 2];
 
 function distinct1(a) {
